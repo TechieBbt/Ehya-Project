@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+.innerContainer{
+    background-image: url(./Images/background\ 2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    /* background-attachment: fixed; */
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+}
+
+.logo{
+    margin-top: 25px;
+}
+
+.navList{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    list-style-type: none;
+    /* display: inline-block; */
+    margin:20px;
+}
+
+.navList li{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: 'DM Sans' , sans-serif;
+    /* width: 70%; */
+    height: 100%;
+    display: inline;
+    justify-content: space-between;
+    margin-right: 30px;
+    padding: 7px;
+    border-radius: 4px;
+}
+.navList li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.navList li a:hover{
+    background-color: white;
+    color:#0262a7;
+    padding: 10px;
+    transform: scale(5.3,5.2);
+    transition: 0.4s;
+}
+
+.navList li button{
+    font-size: 14px;
+    font-weight: 400;
+    background-image: linear-gradient(to right #005490, #328BCB)!important;
+    /* width: 100%; */
+    margin-top: -6px;
+    font-family: 'DM Sans', sans-serif;
+    display: inline;
+    padding: 10px 25px 10px 25px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    background-color: #0262a7;
+    cursor: pointer;
+}
+.navList button:hover{
+    background-color: white;
+    color:#0262a7;
+    transform: scale(1.3,1.2);
+    transition: 0.4s;
+}
+
+.bigText{
+    font-family: DM Sans;
+    font-style: bold;
+    font-size: 30px;
+    line-height: 65px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: -60%;
+}
+
+.hero{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: -100px;
+}
+
+.design{
+    /* margin-right: -10%; */
+    margin-top: -40px;
+}
+
+.design>img{
+    width: 100%;
+}
+
+.text{
+    margin-top: 25px;
+}
+
+.curve{
+    margin-top: -13px;
+}
+.curve>img{
+    width: 155px;
+}
+.smalltext{
+    font-size: 14px;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    line-height: 23px;
+}
+.button button{
+    background-color: white;
+    color: #00A8DB;
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 3px;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color: #0262a7;
+    color: #FFFFFF;
+}
+.button{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.demo{
+    margin-left: 10%;
+    margin-top: 12px;
+    color:#FFFFFF;
+}
+
+.sponsors{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: -40px;
+}
+
+.post{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-top: 130px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+.postImage>img{
+    width: 200%;
+    margin-top: 10%;
+}
+.postImage{
+    background-image: url(./Images/curve.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.postText{
+    margin-left: 20%;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+.postText h1{
+    color: rgb(3, 77, 130);
+}
+.postText p{
+    color: rgb(144, 163, 180);
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 32px;
+    letter-spacing: 0.3px;
+}
+.postText h5{
+    color: rgb(4, 170, 221);
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 21px;
+    letter-spacing: 0.3px;
+}
+
+.schedule{
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.scheduleText{
+    margin-left: 10%;
+    /* margin-top: 5px; */
+    width: 50%;
+}
+.scheduleText h1{
+    color: #034D82;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.scheduleText p{
+    color: #90A3B4;
+    margin-bottom: 25px;
+    line-height: 32px;
+    font-size: 16px;
+}
+.scheduleList{
+    list-style-type: none;
+}
+.scheduleList li{
+    color: #90A3B4;
+    margin-bottom: 20px;
+}
+.scheduleText h4{
+    color: #04AADD;
+    margin-top: 10px;
+}
+.scheduleImg>img{
+    width: 115%;
+}
+
+.track{
+    background-color: #EFFBFF;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.heading{
+    margin:auto;
+    text-align: center;
+    padding-top: 60px;
+}
+.heading h2{
+    color: #034D82;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.heading p{
+    color: #8EA9C1;
+    width: 35%;
+    text-align: center;
+    margin: auto;
+    line-height: 25px;
+}
+.cards{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+   
+}
+.card{
+    background-color: white;
+    margin-right: 30px;
+    padding: 15px;
+    padding-right: 35px;
+    width: 25%;
+    height: 40vh;
+}
+.card p{
+    padding-top: 20px;
+}
+.card h4{
+    padding-top: 20px;
+    font-style: bold;
+    color: #034D82;
+}
+
+.star{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+.starText{
+    /* margin-left: 10%; */
+    /* margin-top: 5px; */
+    width: 60%;
+}
+.starText h1{
+    color: #034D82;
+    /* font-size: 36px; */
+}
+.starText p{
+    color: #9DA3B4;
+    margin-top: 20px;
+}
+.starImg{
+    margin-left: 20%;
+}
+.stars5{
+    margin-left: -40px;
+}
+.starImg p{
+    width: 75%;
+    font-style: italic;
+    font-style: bold;
+    margin-top: 10px;
+    color: #9DA3B4;
+}
+.arrowHart{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -40px;
+}
+.hartText p{
+    font-style: normal;
+    color: #9DA3B4;
+    margin-right: 90px;
+}
+.arrow1{
+    margin-right: 20px;
+    margin-left: -70px;
+    margin-top: 20px;
+}
+.Hart{
+    margin-left: 20px;
+}
+.hartText{
+    margin-left: 20px;
+}
+.blueArrow{
+    margin-top: -50px;
+    margin-right: -75px;
+    margin-left: -90px;
+}
+
+.media{
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    background-image: url(./Images/background\ grow.png);
+    background-size: cover;
+    padding: 75px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    line-height: 7vh;
+}
+.media>img{
+    width: 400%;
+    margin-top: 10%;
+}
+.emoji{
+    display: flex;
+}
+.emoji h1{
+    width: 70%;
+    color: white;
+    font-size: 250%;
+    padding-bottom: 10px;
+}
+.emoji img{
+    margin-top: 18%;
+    margin-left: -45%;
+}
+.brand{
+    display: flex;
+}
+.brand p{
+    margin-left: 10px;
+    color: white;
+}
+.buttonTrial{
+    margin-top: 100px;
+    margin-left: 20%;
+    width: 50%;
+    text-align: right;
+}
+.buttonTrial button{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 184, 217);
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 4px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    cursor: pointer;
+}
+.buttonTrial button:hover{
+    background-color: #0262a7;
+    color: #FFFFFF;
+    padding: 24px;
+    transition: (4,5);
+}
+
+footer{
+    background-image: url(./Images/footer\ backg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;;
+    margin-bottom: 60px;
+
+}
+
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    line-height: 50px;
+}
+
+.footerContainer p{
+    color: rgb(211, 214, 216);
+}
+
+.footerContainer h3{
+    color:#FFFFFF;
+}
+
+.footLogo{
+    margin-top: 5px;
+}
+.footLogo p{
+    width: 70%;
+    line-height: 30px;
+    margin-bottom: 30px;;
+}
+
+.footList{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    line-height: 50px;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.copyright>img{
+    padding-bottom: 20px;
+}
