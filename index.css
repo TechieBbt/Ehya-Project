@@ -122,11 +122,12 @@ body{
     width: 155px;
 }
 .smalltext p{
-    font-size: 14px;
+    font-size: 16px;
     color: white;
-    margin-top: 10%;
+    margin-top: 10px;
     margin-bottom: 20px;
     line-height: 23px;
+    width: 70%;
 }
 .button button{
     background-color: white;
@@ -281,8 +282,22 @@ body{
     width: 25%;
     height: 40vh;
 }
+.card:hover{
+    background-color: #0262a7;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.card:hover h4{
+    color: white;
+}
+card:hover p{
+    color: rgb(220, 213, 213)
+}
 .card p{
     padding-top: 20px;
+    font-size: 15px;
+    color: #8EA9C1;
 }
 .card h4{
     padding-top: 20px;
@@ -327,6 +342,9 @@ body{
     display: flex;
     margin-top: 20px;
     margin-bottom: -40px;
+}
+.hartText h2{
+    color: #034D82;
 }
 .hartText p{
     font-style: normal;
@@ -378,6 +396,9 @@ body{
 .emoji img{
     margin-top: 18%;
     margin-left: -45%;
+}
+.customer{
+    color: white;
 }
 .brand{
     display: flex;
@@ -468,15 +489,16 @@ footer{
 
 @media screen and (max-width: 1024px){
     .innerContainer{
-        height: 74vh;
+        height: 94vh;
     }
     .smalltext p{
         font-size: 16px;
-        width: 99%;
-        margin-top: 2%;
+        color: white;
+        margin-top: 10px;
         margin-bottom: 20px;
         line-height: 23px;
-    }
+        width: 100%;
+}
     .bigText{
        font-size: 24px;
     }
@@ -514,5 +536,605 @@ footer{
     }
     .scheduleText h1{
         width: 120%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .navList{
+        /* padding: 3px; */
+        margin-top: 13px;
+        width: 100%;
+    }
+    .navList li{
+        font-size: 12px;
+        padding: 4px;
+    }
+    .bigText{
+        font-size: 18px;
+        line-height: 40px;
+        margin-right: -60px;
+        /* width: 140%; */
+    }
+    .smallText p{
+        font-size: 8px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+        line-height: 12px;
+    }
+    .demo{
+        margin-left: 20px;
+        margin-top: 14px;
+        font-size: 12px;
+    }
+    .demo>img{
+        width: 12%;
+    }
+    .button{
+        width: 120%;
+    }
+    .curve>img{
+        width: 32%;
+        margin-top: 5px;
+    }
+    .innerContainer{
+        /* width: 100%; */
+        height: 75vh;
+    }
+    .design{
+        /* width: 100%; */
+        margin-right: 65px;
+
+    }
+    .design>img{
+        width: 120%;
+    }
+    .sponsors>img{
+        width: 22%;
+        padding: 20px;
+    }
+
+    .post{
+        display: flex;
+        width: 90%;
+        margin-left: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        justify-content: space-between;
+    }
+    .postImage>img{
+        width: 200%;
+        margin-top: 10%;
+    }
+    .postImage{
+        width: 50%;
+    }
+    .postText{
+        margin-top: 50px;
+        margin-right: 10%;
+    }
+    .postText h1{
+        font-size: 20px;
+    }
+    .postText p{
+        line-height: 20px;
+        font-size: 10px;
+        width: 110%;
+    }
+    .postText h5{
+        font-size: 10px;
+        line-height: 11px;
+    }
+    .postText h5 img{
+        margin-bottom: -3px;
+    }
+    .scheduleText{
+        margin-left: 10%;
+        /* margin-top: 5px; */
+        width: 50%;
+    }
+    .scheduleText h1{
+        margin-bottom: 15px;
+        font-size: 25px;
+        width: 80%;
+    }
+    .scheduleText p{
+        color: #90A3B4;
+        margin-bottom: 25px;
+        line-height: 20px;
+        font-size: 10px;
+        width: 80%;
+    }
+    .scheduleList{
+        list-style-type: none;
+    }
+    .scheduleList li{
+        color: #90A3B4;
+        margin-bottom: 14px;
+        font-size: 10px;
+    }
+    .scheduleList li img{
+        padding-right: 5px;
+        margin-bottom: -3px;
+    }
+    .scheduleText h4{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .scheduleText h4 img{
+        margin-bottom: -3px;
+    }
+    .scheduleImg{
+        width: 50%;
+    }
+    .scheduleImg>img{
+        width: 100%;
+    }
+    .heading h2{
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .heading p{
+        width: 55%;
+        line-height: 15px;
+        font-size: 10px;
+    }
+    .cards{
+        width: 80%;
+        padding-top: 30px;
+        padding-bottom: 60px;
+       
+    }
+    .card{
+        background-color: white;
+        margin-right: 30px;
+        padding: 10px;
+        padding-right: 25px;
+        width: 100%;
+        height: 32vh;
+    }
+    .card p{
+        padding-top: 20px;
+        font-size: 10px;
+        width: 120%;
+    }
+    .card h4{
+        padding-top: 20px;
+        font-size: 15px;
+        width: 120%;
+    }
+    .card>img{
+        width: 40%;
+    }
+    .starText{
+        width: 45%;
+    }
+    .starText h1{
+        font-size: 20px;
+    }
+    .starText p{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .starImg{
+        width: 55%;
+    }
+    .starImg p{
+        width: 95%;
+        font-size: 10px;
+    }
+    .hartText h2{
+        font-size: 20px;
+    }
+    .hartText p{
+        font-size: 10px;
+    }
+    .blueArrow{
+        margin-top: -10px;
+        padding-bottom: 50px;
+        margin-right: -95px;
+        margin-left: -90px;
+    }
+    .blueArrow>img{
+        width: 60%;
+    }
+    .media{
+        display:flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        background-image: url(./Images/background\ grow.png);
+        background-size: cover;
+        padding: 75px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        line-height: 7vh;
+    }
+    .media>img{
+        width: 400%;
+        margin-top: 10%;
+    }
+    .emoji{
+        display: flex;
+    }
+    .emoji h1{
+        width: 70%;
+        color: white;
+        font-size: 250%;
+        padding-bottom: 10px;
+    }
+    .emoji img{
+        margin-top: 18%;
+        margin-left: -45%;
+    }
+    .customer{
+        color: white;
+    }
+    .brand{
+        display: flex;
+    }
+    .brand p{
+        margin-left: 10px;
+        color: white;
+    }
+    .buttonTrial{
+        margin-top: 100px;
+        margin-left: 20%;
+        width: 50%;
+        text-align: right;
+    }
+    .buttonTrial button{
+        padding: 20px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 184, 217);
+        font-size: 16px;
+        font-family: "DM Sans", sans-serif;
+        border-radius: 4px;
+        border-width: initial;
+        border-style: none;
+        border-color: initial;
+        border-image: initial;
+        cursor: pointer;
+    }
+    .buttonTrial button:hover{
+        background-color: #0262a7;
+        color: #FFFFFF;
+        padding: 24px;
+        transition: (4,5);
+    }
+    
+    footer{
+        background-image: url(./Images/footer\ backg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 70px;;
+        margin-bottom: 60px;
+    
+    }
+    
+    
+    .footerContainer{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        padding: 50px 0;
+        line-height: 50px;
+    }
+    
+    .footerContainer p{
+        color: rgb(211, 214, 216);
+    }
+    
+    .footerContainer h3{
+        color:#FFFFFF;
+    }
+    
+    .footLogo{
+        margin-top: 5px;
+    }
+    .footLogo p{
+        width: 70%;
+        line-height: 30px;
+        margin-bottom: 30px;;
+    }
+    
+    .footList{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        line-height: 50px;
+    }
+    
+    .copyright{
+        color: white;
+        text-align: center;
+        padding-bottom: 90px;
+    }
+    
+    .copyright>img{
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 425px){
+    nav{
+        display: none;
+    }
+    .bigText{
+        font-size: 20px;
+        line-height: 45px;
+        width: 100%;
+    }
+    
+    .hero{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: auto;
+        margin-top: 20px;
+        margin-bottom: -120px;
+    }
+    .innerContainer{
+        height: 115vh;
+    }
+    .design{
+        
+        width: 80%;
+        margin: auto;
+        margin-top: -45px;
+        margin-left: 15px;
+        /* margin-right: -15px; */
+    }
+    
+    .design>img{
+        width: 120%;
+    }
+    
+    .text{
+        margin-top: 25px;
+    }
+    
+    .curve{
+        margin-top: -18px;
+    }
+    .curve>img{
+        width: 103px;
+    }
+    .button{
+        width: 70%;
+    }
+    .sponsors{
+        width: 70%;
+    }
+
+    .post{
+        flex-direction: column;
+        text-align: left;
+        
+    }
+    .postImage>img{
+        width: 60%;
+        margin-top: 10px;
+    }
+    .postImage{
+        background-image: url(./Images/curve.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .postText{
+        margin-left: 20%;
+        justify-content: center;
+        margin-top: 60px;
+        margin-left: 30%;
+        margin-right: 10%;
+        width: 80%;
+        margin: auto;
+    }
+    .postText h1{
+        font-size: 30px;
+    }
+    .postText p{
+        font-size: 10px;
+    }
+    
+    .schedule{
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        margin-top: -30px;
+    }
+    .scheduleText{
+        text-align: center;
+        width: 90%;
+    }
+    .scheduleText h1{
+        color: #034D82;
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    .scheduleText p{
+        color: #90A3B4;
+        margin-bottom: 25px;
+        line-height: 32px;
+        font-size: 16px;
+    }
+    .scheduleList{
+        list-style-type: none;
+        text-align: left;
+    }
+
+    .scheduleText h4{
+        text-align: left;
+    }
+    .scheduleImg{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .scheduleImg>img{
+        width: 95%;
+    }
+    
+    .heading p{
+        width: 85%;
+        font-size: 12px;
+    }
+    .cards{
+        width: 80%;
+        margin: auto;
+        flex-direction: column;
+    }
+    .card{
+        padding: 15px;
+        width: 85%;
+        margin: auto;
+        height: 55vh;
+        margin-bottom: 50px;
+    }
+    .card p{
+        padding-top: 20px;
+        font-size: 17px;
+        width: 80%;
+        line-height: 30px;
+    }
+    .card h4{
+        font-size: 20px;
+    }
+    
+    .star{
+        display: flex;
+        flex-direction: column;
+    }
+    .starText{
+        width: 80%;
+        margin: auto;
+    }
+    .starText p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .starImg{
+        width: 80%;
+        margin: auto;
+    }
+    .stars5{
+        margin-left: -10px;
+    }
+    .starImg p{
+        width: 85%;
+    }
+    .arrowHart{
+        display: flex;
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: -40px;
+    }
+
+    .arrow1{
+        margin-left: -90px;
+        margin-top: 20px;
+    }
+    .Hart{
+        margin-left: 10px;
+    }
+    .hartText{
+        margin-left: 20px;
+    }
+    .blueArrow{
+        margin-top: 8px;
+        margin-right: -75px;
+        margin-left: -50px;
+        margin-bottom: 10px;
+    }
+    .media{
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        padding: 25px;
+        margin-top: 30px;
+        margin-bottom: 10%;
+    }
+    .media>img{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .emoji{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .emoji h1{
+        width: 100%;
+        font-size: 30px;
+    }
+    .emoji img{
+        margin-top: 70px;
+        margin-right: 50px;
+        margin-left: -5px;
+    }
+    .customer{
+        width: 120%;
+        color:#FFFFFF
+}
+    .buttonTrial{
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .buttonTrial button{
+        padding: 15px 50px;
+        font-size: 16px;
+    }
+    
+    footer{
+        background-image: url(./Images/footer\ backg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 70px;;
+        margin-bottom: 60px;
+    
+    }
+    .footList{
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+    .Product{
+        margin-bottom: 15px;
+    }
+    .Services{
+        margin-bottom: 15px;
+    }
+    .Company{
+        margin-bottom: 15px;
+    }
+    .footerContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footLogo{
+        margin-top: 5px;
+    }
+    .footLogo p{
+        width: 70%;
+        line-height: 30px;
+        margin-bottom: 30px;;
+    }
+    
+    
+    .copyright{
+        color: white;
+        text-align: center;
+        padding-bottom: 90px;
+    }
+    
+    .copyright>img{
+        padding-bottom: 20px;
     }
 }
